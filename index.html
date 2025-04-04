@@ -1,13 +1,185 @@
 <!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Patrick Wegener's website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://www.maths.nottingham.ac.uk/plp/pmadw/LaTeXMathML.js">
+    </script>
 </head>
+
 <body>
-    <h1>Hallo Welt</h1>
-    <h2>Patrick Wegener</h2>
-    <h2>test</h2>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#research_interests">Research interests</a></li>
+                    <li><a href="index.html#publications">Publications</a></li>
+                    <li><a href="index.html#teaching">Teaching</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+
+            <!-- Contact Info on the Sidebar -->
+            <div class="col-md-4">
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Patrick Wegener</b></div><br>
+                <div class="row">
+                    <div class="col-md-8">
+                        <img class="img-responsive" src="patrick.jpg" alt=""></div>
+                </div><br>
+                <p><b>E-Mail:</b></p>
+                <p><i> patrick.wegener [at] math [dot] uni-hannover [dot] de </i><br>
+            </div>
+
+
+
+
+            <!-- Entries Column -->
+            <div class="col-md-8">
+                <h2 id="about">About me</h2>
+
+
+                <div style="margin-top:3%; text-align:justify;">
+                    <p> I am a mathematician who obtained his PhD in 2017 at Bielefeld University under the supervision of <a href="https://www.math.uni-bielefeld.de/~baumeist/"> Barbara Baumeister</a>.</p>
+
+                    <p> From 2017 to 2020 I was a Postdoc in the working group of <a href="https://agag-malle.math.rptu.de/~malle/de/index.html"> Gunter Malle</a> at TU Kaiserslautern. From 2020 to 2025 I was a Postdoc in the <a href="https://www.iazd.uni-hannover.de/en/"> Institute of Algebra, Number Theory and Discrete Mathematics</a> at Leibniz University Hannover</p>
+
+                    <p> My main research interest are Coxeter groups and problems related to these groups.</p>
+                </div>
+            </div>
+
+
+            <!-- Links on the Sidebar -->
+            <div class="col-md-4" style="margin-top:0%">
+                <!-- Hier später ORCID hintun oder so -->
+            </div>
+
+
+            <!-- Reasearch interests -->
+            <div class="col-md-8">
+                <h2 id="research_interests">Research interests</h2>
+
+                <ul>
+                    <li>Coxeter groups </li>
+                    <li>Elliptic Weyl groups </li>
+                    <li>(Algebraic) Combinatorics </li>
+                </ul>
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- Links on the Sidebar -->
+            <div class="col-md-4" style="margin-top:2%">
+                <!-- Hier später ORCID hintun oder so -->
+            </div>
+
+
+            <!-- Publications -->
+            <div class="col-md-8">
+                <h2 id="publications">Publications</h2>
+                
+                <p> Links refer to the published version if it is open-access. Otherwise it refers to the arxiv-version. </p>
+                <strong>Published</strong><br/>
+                <ul>
+                    <li class="paper" words="add, your, keywords, here">(with B. Baumeister, M. Dyer, C. Stump) <a href="https://www.ams.org/journals/bproc/2014-01-13/S2330-1511-2014-00017-1/S2330-1511-2014-00017-1.pdf">A note on the transitive Hurwitz action on decompositions of parabolic Coxeter elements</a>, <i>Proc. Amer. Math. Soc. Ser. B</i> <b>1</b> (2014), 149-154. </li>
+                    <li class="paper" words="add, your, keywords, here">(with B. Baumeister, T. Gobet, K. Roberts) <a href="https://www.degruyterbrill.com/document/doi/10.1515/jgth-2016-0025/html?srsltid=AfmBOooKAh25TAQAjLAa4fLH1_m_168443HzuJz5Q6Oglki99g3X6jsp">On the Hurwitz action in finite Coxeter groups</a>, <i>J. Group Theory</i> <b>20</b> (2017), 103-131. </li>
+                    <li class="paper" words="add, your, keywords, here">(with B. Baumeister) <a href="https://arxiv.org/abs/1709.00603">A note on Weyl groups and root lattices</a>, <i>Arch. Math.</i> <b>111</b> (2018), 469-477. </li>
+                    <li class="paper" words="add, your, keywords, here"><a href="https://arxiv.org/abs/1710.06694">On the Hurwitz action in affine Coxeter groups</a>, <i>J. Pure Appl. Algebra</i> <b>224</b> (2020), no. 7. </li>
+                    <li class="paper" words="add, your, keywords, here">(with S. Yahiatene) <a href="https://www.numdam.org/articles/10.5802/alco.99/
+">A note on non-reduced reflection factorizations of Coxeter elements</a>, <i>Algebr. Comb.</i> <b>3</b> (2020), 465-469. </li>
+                    <li class="paper" words="add, your, keywords, here">(with R. Hollenbach) <a href="https://www.numdam.org/articles/10.5802/alco.99/
+">The centralizer of a Coxeter element</a>, <i>Bull. London Math. Soc.</i> <b>54</b> (2022), no. 2. </li>
+                    <li class="paper" words="add, your, keywords, here">(with S. Yahiatene) <a href="https://ems.press/journals/jca/articles/10813441">Reflection factorizations and quasi-Coxeter elements</a>, <i>J. Comb. Algebra</i> <b>7</b> (2023), 127-157. </li>
+                </ul>
+                
+                
+                <strong>Accepted</strong><br/>
+                <ul>
+                    <li class="paper" words="add, your, keywords, here"><a href="https://arxiv.org/abs/1910.09421">Reflection groups and quiver mutation: Diagrammatics</a> appears in <i>Electron. J. Comb.</i> </li>
+                </ul>
+                
+                
+                <strong>Preprints</strong><br/>
+                <ul>
+                    <li class="paper" words="add, your, keywords, here">(with B. Baumeister, S. Yahiatene) <a href="https://arxiv.org/abs/1808.05083">Extended Weyl groups, Hurwitz transitivity and weighted projective lines I: Generalities and the tubular case</a> </li>
+                    <li class="paper" words="add, your, keywords, here">(with B. Baumeister, S. Yahiatene) <a href="https://arxiv.org/abs/2104.07075">Extended Weyl groups, Hurwitz transitivity and weighted projective lines II: The wild case</a> </li>
+                    <li class="paper" words="add, your, keywords, here">(with B. Baumeister) <a href="https://arxiv.org/abs/2411.06401">Elliptic Weyl groups and Hurwitz transitivity</a></li>
+                </ul>
+
+            </div>
+
+
+
+
+            <!-- Links on the Sidebar -->
+            <div class="col-md-4" style="margin-top:2%">
+                <!-- Hier später ORCID hintun oder so -->
+            </div>
+
+
+            <!-- Teaching -->
+            <div class="col-md-8">
+                <h2 id="teaching">Teaching</h2>
+
+                <p> I taught courses on Comlex Analysis (Kaiserslautern, 2018) and on Discrete Mathematics (Hannover, 2023) as well as a seminar on Cluster Algebras for graduate and undergraduate students (Kaiserslautern, 2018). </p>
+                
+                <p> In Hannover from 2020 to 2025 I was the assistant for the math lectures for computer science as well as for biology. </p>
+
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+    <!-- /.container -->
+
+
 </body>
+
 </html>
